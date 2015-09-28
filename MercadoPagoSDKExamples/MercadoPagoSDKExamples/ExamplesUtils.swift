@@ -9,7 +9,7 @@
 import UIKit
 import MercadoPagoSDK
 
-class ExamplesUtils {
+class ExamplesUtils: NSObject {
     class var MERCHANT_PUBLIC_KEY : String {
 		return "444a9ef5-8a6b-429f-abdf-587639155d88"
 		// "444a9ef5-8a6b-429f-abdf-587639155d88" // AR
